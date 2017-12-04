@@ -1,0 +1,696 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 95vh;
+  background-color: rgb(11, 53, 135);
+}
+
+.align{
+  height: 95vh;
+  width: 95vh;
+  background-size: cover;
+  background-position: top;
+}
+
+
+.circle1{
+  width: 600px;
+  height: 600px;
+  background-color: rgb(227, 24, 201);
+  border-radius: 1000px;
+  position: absolute;
+  top:20%;
+  left:15%;
+  transform: translate(-50%,-50%);
+
+}
+
+
+@keyframes you{
+  0%{
+    transform: rotate(0deg)
+		           translate(-150px)
+		           rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg)
+		           translate(-150px)
+		           rotate(-360deg)
+  }
+}
+
+@keyframes me{
+  0%{
+    transform: rotate(0deg)
+		           translate(-180px)
+		           rotate(0deg);
+  }
+  100%{
+    transform: rotate(-360deg)
+		           translate(-150px)
+		           rotate(360deg)
+  }
+}
+
+.circle1:hover{
+  background: rgb(22, 208, 227);
+  width: 600px;
+  height: 600px;
+  animation: circle1 0.4s;
+
+}
+
+@keyframes circle1{
+  0%{
+    width: 600px;
+    height: 600px;
+  }
+  50%{
+
+    width: 400px;
+    height: 400px;
+  }
+  100%{
+    width: 600px;
+    height: 600px;
+  }
+}
+
+.circle2{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(250, 255, 0);
+  border-radius: 1000px;
+  position: absolute;
+  top:70%;
+  left:85%;
+  transform: translate(-50%,-50%);
+}
+
+.circle2:hover{
+  background: rgb(186, 22, 227);
+  width: 300px;
+  height: 300px;
+  animation: circle2 0.3s;
+}
+
+@keyframes circle2{
+  0%{
+    width: 300px;
+    height: 300px;
+  }
+  50%{
+
+    width: 100px;
+    height: 100px;
+  }
+  100%{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.circle3{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(6, 235, 36);
+  border-radius: 1000px;
+  position: absolute;
+  top:20%;
+  left:60%;
+  transform: translate(-50%,-50%);
+}
+
+.circle3:hover{
+  background: rgb(255, 54, 0);
+  width: 100px;
+  height: 100px;
+  animation: circle3 0.2s;
+}
+
+@keyframes circle3{
+  0%{
+    width: 100px;
+    height: 100px;
+  }
+  50%{
+
+    width: 300px;
+    height: 300px;
+  }
+  100%{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.circle4{
+  width: 240px;
+  height: 240px;
+  background-color: rgb(6, 228, 235);
+  border-radius: 1000px;
+  position: absolute;
+  top:60%;
+  left:30%;
+  transform: translate(-50%,-50%);
+}
+
+
+.circle4:hover{
+  background: rgb(112, 0, 255);
+  width: 240px;
+  height: 240px;
+  animation: circle4 0.2s;
+}
+
+@keyframes circle4{
+  0%{
+    width: 240px;
+    height: 240px;
+  }
+  50%{
+
+    width: 50px;
+    height: 50px;
+  }
+  100%{
+    width: 240px;
+    height: 240px;
+  }
+}
+
+.circle5{
+  width: 800px;
+  height: 800px;
+  background-color: rgb(76, 17, 245);
+  border-radius: 1000px;
+  position: absolute;
+  top:0%;
+  left:95%;
+  transform: translate(-50%,-50%);
+}
+
+.circle5:hover{
+  background: rgb(51, 255, 0);
+  width: 800px;
+  height: 800px;
+  animation: circle5 0.5s;
+}
+
+@keyframes circle5{
+  0%{
+    width: 800px;
+    height: 800px;
+  }
+  50%{
+
+    width: 300px;
+    height: 300px;
+  }
+  100%{
+    width: 800px;
+    height: 800px;
+  }
+}
+
+
+.circle6{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(221, 89, 14);
+  border-radius: 1000px;
+  position: absolute;
+  top:58%;
+  left:53%;
+  transform: translate(-50%,-50%);
+}
+
+.circle6:hover{
+  background: rgb(0, 255, 194);
+  width: 200px;
+  height: 200px;
+  animation: circle6 0.2s;
+}
+
+@keyframes circle6{
+  0%{
+    width: 200px;
+    height: 200px;
+  }
+  50%{
+
+    width: 500px;
+    height: 500px;
+  }
+  100%{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.circle7{
+  width: 80px;
+  height:80px;
+  background-color: rgb(242, 255, 0);
+  border-radius: 1000px;
+  position: absolute;
+  top:20%;
+  left:35%;
+  transform: translate(-50%,-50%);
+  animation: you 3s infinite linear;
+}
+
+
+.circle7:hover{
+  background: rgb(255, 168, 0);
+  width: 80px;
+  height: 80px;
+  animation: circle7 0.1s;
+}
+
+@keyframes circle7{
+  0%{
+    width: 80px;
+    height: 80px;
+  }
+  50%{
+
+    width: 300px;
+    height: 300px;
+  }
+  100%{
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.circle7.2{
+  width: 80px;
+  height:80px;
+  background-color: rgb(158, 0, 255);
+  border-radius: 1000px;
+  position: absolute;
+  top:50%;
+  left:70%;
+  transform: translate(-50%,-50%);
+  animation: you 3s infinite linear;
+}
+
+.circle9{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(0, 255, 102);
+  border-radius: 1000px;
+  position: absolute;
+  top:100%;
+  left:60%;
+  transform: translate(-50%,-50%);
+}
+
+
+.circle9:hover{
+  background: rgb(255, 168, 0);
+  width: 300px;
+  height: 300px;
+  animation: circle9 0.5s;
+}
+
+@keyframes circle9{
+  0%{
+    width: 300px;
+    height: 300px;
+  }
+  50%{
+
+    width: 80px;
+    height: 80px;
+  }
+  100%{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.c10{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(6, 228, 235);
+  border-radius: 1000px;
+  position: absolute;
+  top:20%;
+  left: 10%;
+  transform: translate(-50%,-50%);
+}
+
+.c10:hover{
+  background: rgb(255, 168, 0);
+  width: 70px;
+  height: 70px;
+  animation: circle10 0.4s;
+}
+
+@keyframes circle10{
+  0%{
+    width: 70px;
+    height: 70px;
+  }
+  50%{
+
+    width: 260px;
+    height: 260px;
+  }
+  100%{
+    width: 70px;
+    height: 70px;
+  }
+}
+
+
+.c11{
+  width: 500px;
+  height: 500px;
+  background-color: rgb(4, 0, 193);
+  border-radius: 1000px;
+  position: absolute;
+  top: 110%;
+  left:20%;
+  transform: translate(-50%,-50%);
+}
+
+.c11:hover{
+  background: rgb(255, 168, 0);
+  width: 500px;
+  height: 500px;
+  animation: circle11 0.7s;
+}
+
+@keyframes circle11{
+  0%{
+    width: 500px;
+    height: 500px;
+  }
+  50%{
+
+    width: 140px;
+    height: 140px;
+  }
+  100%{
+    width: 500px;
+    height: 500px;
+  }
+}
+
+.c12{
+  width:300px;
+  height: 300px;
+  background-color: rgb(0, 100, 193);
+  border-radius: 1000px;
+  position: absolute;
+  top: 10%;
+  left:90%;
+  transform: translate(-50%,-50%);
+}
+
+.c12:hover{
+background: rgb(255, 168, 0);
+width: 300px;
+height: 300px;
+animation: circle12 0.7s;
+}
+
+@keyframes circle12{
+0%{
+  width: 300px;
+  height: 300px;
+}
+50%{
+
+  width: 200px;
+  height: 200px;
+}
+100%{
+  width: 300px;
+  height: 300px;
+}
+}
+
+.c13{
+  width:50px;
+  height: 50px;
+  background-color: rgb(0, 66, 236);
+  border-radius: 1000px;
+  position: absolute;
+  top: 30%;
+  left:85%;
+  animation: me 3s infinite linear;
+}
+
+.c13:hover{
+background: rgb(181, 0, 255);
+width: 50px;
+height: 50px;
+animation: circle13 0.4s;
+}
+
+@keyframes circle13{
+0%{
+  width: 50px;
+  height: 50px;
+}
+50%{
+
+  width: 200px;
+  height: 200px;
+}
+100%{
+  width: 50px;
+  height: 50px;
+}
+}
+
+.c14{
+  width:40px;
+  height: 40px;
+  background-color: rgb(125, 0, 236);
+  border-radius: 1000px;
+  position: absolute;
+  top: 67%;
+  left:10%;
+  transform: translate(-50%,-50%);
+  animation: you 2s infinite linear;
+}
+
+.c14:hover{
+background: rgb(181, 0, 255);
+width: 40px;
+height: 40px;
+animation: circle14 1;
+
+}
+
+@keyframes circle14{
+0%{
+  width: 40px;
+  height: 40px;
+}
+50%{
+
+  width: 100px;
+  height: 100px;
+}
+100%{
+  width: 40px;
+  height: 40px;
+}
+}
+
+.c15{
+  width:40px;
+  height: 40px;
+  background-color: rgb(224, 0, 236);
+  border-radius: 1000px;
+  position: absolute;
+  top: 66%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  animation: you 3s infinite linear;
+}
+
+.c15:hover{
+background: rgb(255, 176, 0);
+width: 40px;
+height: 40px;
+animation: circle15 0.4s;
+}
+
+@keyframes circle15{
+0%{
+  width: 40px;
+  height: 40px;
+}
+50%{
+
+  width: 400px;
+  height: 400px;
+}
+100%{
+  width: 40px;
+  height: 40px;
+}
+}
+
+.c16{
+  width:40px;
+  height: 40px;
+  background-color: rgb(0, 222, 236);
+  border-radius: 1000px;
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  animation: me 5s infinite linear;
+}
+
+.c16:hover{
+background: rgb(255, 176, 0);
+width: 40px;
+height: 40px;
+animation: circle15 0.4s;
+}
+
+@keyframes circle16{
+0%{
+  width: 40px;
+  height: 40px;
+}
+50%{
+
+  width: 400px;
+  height: 400px;
+}
+100%{
+  width: 40px;
+  height: 40px;
+}
+}
+
+.c17{
+  width:40px;
+  height: 40px;
+  background-color: rgb(212, 36, 31);
+  border-radius: 1000px;
+  position: absolute;
+  top: 60%;
+  left:90%;
+  transform: translate(-50%,-50%);
+  animation: you 5s infinite linear;
+}
+
+.c17:hover{
+background: rgb(255, 176, 0);
+width: 40px;
+height: 40px;
+animation: circle15 0.4s;
+}
+
+@keyframes circle16{
+0%{
+  width: 40px;
+  height: 40px;
+}
+50%{
+
+  width: 400px;
+  height: 400px;
+}
+100%{
+  width: 40px;
+  height: 40px;
+}
+}
+
+.c18{
+  width:100px;
+  height: 100px;
+  background-color: rgb(31, 212, 163);
+  border-radius: 1000px;
+  position: absolute;
+  top: 10%;
+  left:10%;
+  transform: translate(-50%,-50%);
+  animation: me 5s infinite linear;
+
+}
+
+.c17:hover{
+background: rgb(255, 176, 0);
+width: 40px;
+height: 40px;
+animation: circle15 0.4s;
+backface-visibility: hidden;
+}
+
+@keyframes circle16{
+0%{
+  width: 40px;
+  height: 40px;
+}
+50%{
+
+  width: 400px;
+  height: 400px;
+}
+100%{
+  width: 40px;
+  height: 40px;
+}
+}
+
+
+.animate{
+  font-size: 70px;
+  font-family: Futura;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left:40%;
+  animation: flamingo .7s ease-out .75s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes flamingo{
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.animate2{
+    font-size: 20px;
+    font-family: Futura;
+    color: black;
+    position: absolute;
+    top: 58%;
+    left:40%;
+    animation: flamingo .7s ease-out .75s;
+    animation-fill-mode: backwards;
+}
+
+.animate:hover{
+  color: rgb(190, 21, 143);
+}
+
+
+.align{
+  height: 95vh;
+  background-position: cover;
+  background-position: top;
+}
