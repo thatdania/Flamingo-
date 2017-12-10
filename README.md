@@ -6,7 +6,7 @@ Inspired by the song "Flamingo" by Kero Kero Bonito, I created a satisfying visu
 
 Done just with HTMl and CSS3
 
-##Steps
+## Steps
 
 ```
 1. Pull down the code or git clone in to your Desktop
