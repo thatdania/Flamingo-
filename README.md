@@ -22,7 +22,6 @@ cd Flamingo/img
 3.Run the website by opening the html file. 
 ```
 open circle.html 
-
 ```
 4. Have fun by killing as much time as you want to. Follow the tempo when you hover over the circles. 
 
