@@ -6,22 +6,24 @@ Inspired by the song "Flamingo" by Kero Kero Bonito, I created a satisfying visu
 
 Done just with HTMl and CSS3
 
-## Steps
+# Steps
+
+1. Clone the project on your computer
 
 ```
-1. Pull down the code or git clone in to your Desktop
+git clone https://github.com/thatdania/Flamingo-Css.git
 ```
 
+2. change into the project directory, to the image folder 
 ```
-2. Open the youtube link and wait till you open the website (pause it)
-```
-
-```
-3. Open circle.html in the img folder.
+cd Flamingo/img
 ```
 
+3.Run the website by opening the html file. 
 ```
-4. Have fun killing time or kill as much time as you want to.
+open circle.html 
+
 ```
+4. Have fun by killing as much time as you want to. Follow the tempo when you hover over the circles. 
 
 Song: https://www.youtube.com/watch?v=rY-FJvRqK0E
